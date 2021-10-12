@@ -1,0 +1,27 @@
+{
+  "name": "webpack-library",
+  "version": "1.0.0",
+  "description": "基于webpack创建npm包或库",
+  "main": "dist/library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miterwan/webpack-library.git"
+  },
+  "author": "miter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miterwan/webpack-library/issues"
+  },
+  "homepage": "https://github.com/miterwan/webpack-library#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.0"
+  }
+}
