@@ -1,4 +1,4 @@
-const test = '测试'
+const test = '测试111'
 
 export class Library {
   test() {
